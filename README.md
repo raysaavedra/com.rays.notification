@@ -32,16 +32,16 @@ A simple drop down notification widget for Titanium
 * Show the notification, provide the message and the style of notification
     ```javascript
         Alloy.Globals.notificaiton.show({
-          message: "Hello World!",
-          style: 'success'
-      });
+            message: "Hello World!",
+            style: 'success'
+        });
     ```
 
 * Changing the style will change the color of the notification: success, error, warning, info
 
 * Hide the notification:
     ```javascript
-        Alloy.Globals.Messages.hide();
+        Alloy.Globals.notificaiton.hide();
     ```
     
 * Customize the properties of the notification. Just include it on show function as parameter:
