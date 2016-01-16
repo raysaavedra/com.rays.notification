@@ -1,0 +1,29 @@
+".message-container": {
+    height: "5%",
+    width: Ti.UI.FILL,
+    zIndex: 999,
+    backgroundColor: "#DFF2BF",
+    visible: false,
+    
+    data__success: "#58ba57",
+    data__error: "#db524b",
+    data__warning: "#f2ae43",
+    data__info: "#56c0e0",
+}
+
+".message-label": {
+    color : "#fff",
+    font  : {
+        fontSize  : "14dp",
+        fontFamily: "Roboto-Medium",
+    },
+    textAlign: "center",
+    width: "90%"
+}
+
+".message-label[platform=ios formFactor=tablet]": {
+    font  : {
+        fontSize  : "24dp",
+        fontFamily: "Roboto-Medium",
+    },
+}

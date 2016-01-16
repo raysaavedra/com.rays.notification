@@ -1,0 +1,5 @@
+<Alloy>
+    <View id="root" class="message-container">
+        <Label id="messageLabel" class="message-label" />
+    </View>
+</Alloy>
